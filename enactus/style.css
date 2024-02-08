@@ -70,6 +70,21 @@
     cursor: pointer;
     font-size: 1.15vw;
   }
+  #IIT {
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    z-index: -1;
+    position: fixed;
+  }
+  #IIT img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+  }
   
   #main {
     position: relative;
